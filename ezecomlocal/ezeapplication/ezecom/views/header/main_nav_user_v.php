@@ -146,120 +146,51 @@
 <a class="" href="<?php echo base_url()?>homepage?lang=en" data-target="#">Home </a>
 </li>
 <li class="dropdown1">
-	 <a href="<?php echo base_url();?>our-company?lang=en" data-target="#">Our Company </a>
+	 <a href="<?php echo base_url();?>our-company?lang=en" data-target="#">Internet Access </a>
 	  <ul class="dropdown-menu">
-		<li><a href="<?php echo base_url();?>our-company/company-profile?lang=en">Company Profile</a></li>
-		<li><a href="<?php echo base_url();?>our-company/quality-management-system?lang=en">Quality Management System</a></li>
-		<li><a href="<?php echo base_url();?>our-company/childsafe-certification?lang=en">Childsafe Certification</a></li>
-		<li>
-			<li class="partnerships">
-			<a style="cursor:pointer">Our Partnerships<span class="fa fa-chevron-down" id="spanicondown_partnership" aria-hidden="true"></span></a>
-				<ul id="partnerships_id" class="dropdown-menu-partnerships">
-					<li><a href="<?php echo base_url()?>our-company/our-partnerships/goodwill-partners?lang=en">Good Will Partners</a></li>
-					<li><a href="<?php echo base_url()?>our-company/our-partnerships/ezecampus?lang=en">EzeCampus</a></li>
-					<li><a href="<?php echo base_url()?>our-company/our-partnerships/student-discount?lang=en">Student Discount</a></li>
-				</ul>
-			</li>
-		</li>
-		<li><a href="<?php echo base_url();?>our-company/corporate-social-responsibility?lang=en">Corporate Social Responsibility</a></li>
-		<li><a href="<?php echo base_url();?>our-company/community?lang=en">Community</a></li>
-		<li><a href="<?php echo base_url();?>our-company/career-opportunities?lang=en">Career Opportunities</a></li>
+		<li><a href="<?php echo base_url();?>our-services/internet-access/dedicated-internet-access?lang=en">Dedicated Internet Access</a></li>
+		<li><a href="<?php echo base_url();?>our-services/internet-access/EzeBiz?lang=en">EzeBiz</a></li>
+		<li><a href="<?php echo base_url();?>our-services/internet-access/EzeSurf?lang=en">EzeSurf</a></li>
 	  </ul>
 </li>
 <li class="<?=($active=='Our Services')?'current active':null?> mega-align-left sub-hidden-collapse" data-id="545" data-level="1" data-alignsub="left" data-hidesub="1" data-hidewcol="1">
-	
 	<li class="dropdown1">
-	 <a href="<?php echo base_url();?>our-services?lang=en" data-target="#">Our Services</a>
+	 <a href="<?php echo base_url();?>our-services?lang=en" data-target="#">Enterprise Network</a>
 	  <ul class="dropdown-menu">
-		<li>
-			<li class="partnerships">
-			<a style="cursor:pointer">Internet Access <span class="fa fa-chevron-down" id="spanicondown" aria-hidden="true"></span></a>
-				<ul id="internet_access" class="dropdown-menu-partnerships">
-					<li><a href="<?php echo base_url();?>our-services/internet-access/dedicated-internet-access?lang=en">Dedicated Internet Access</a></li>
-					<li><a href="<?php echo base_url();?>our-services/internet-access/EzeBiz?lang=en">EzeBiz</a></li>
-					<li><a href="<?php echo base_url();?>our-services/internet-access/EzeSurf?lang=en">EzeSurf</a></li>
-				</ul>
-			</li>
-		</li>
-		<li>
-			<li class="partnerships">
-			<a style="cursor:pointer;">Enterprise Network<span class="fa fa-chevron-down" id="spanicondown" aria-hidden="true"></span></a>
-				<ul id="enterprise_network" class="dropdown-menu-partnerships">
-					<li><a href="<?php echo base_url();?>our-services/enterprise-network/international-private-leased-circuit?lang=en">IPLC</a></li>
-					<li><a href="<?php echo base_url();?>our-services/enterprise-network/domestic-private-leased-circuit?lang=en">DPLC</a></li>
-					<li><a href="<?php echo base_url();?>our-services/enterprise-network/mpls?lang=en">MPLS</a></li>
-					<li><a href="<?php echo base_url();?>our-services/enterprise-network/vpls?lang=en">VPLS</a></li>
-				</ul>
-			</li>
-		</li>
-		<li>
-			<li class="partnerships">
-			<a style="cursor:pointer;">Cloud Services<span class="fa fa-chevron-down" id="spanicondown" aria-hidden="true"></span></a>
-				<ul id="cloud_services" class="dropdown-menu-partnerships">
-					<li><a href="<?php echo base_url();?>our-services/cloud-service/microsoft-cloud-service?lang=en">Microsoft Cloud Service</a></li>
-					<li><a href="<?php echo base_url();?>our-services/cloud-service/amazon-web-service?lang=en">Amazon Web Service</a></li>
-				</ul>
-			</li>
-		</li>
-		<li>
-			<li class="partnerships">
-			<a style="cursor:pointer;">Data Center & Hosting <span class="fa fa-chevron-down" id="spanicondown" aria-hidden="true"></span></a>
-				<ul id="data_center" class="dropdown-menu-partnerships">
-					<li><a href="<?php echo base_url();?>our-services/hosting/colocation?lang=en">Colocation</a></li>
-					<li><a href="<?php echo base_url();?>our-services/hosting/disaster-recovery-center?lang=en">DRC</a></li>
-					<li><a href="<?php echo base_url();?>our-services/hosting/cpanel-web-hosting?lang=en">Web Hosting</a></li>
-					<li><a href="<?php echo base_url();?>our-services/hosting/virtual-pbx?lang=en">VPBX</a></li>
-				</ul>
-			</li>
-		</li>
-		<li>
-			<li class="partnerships">
-			<a style="cursor:pointer;">Cyber Security<span class="fa fa-chevron-down" id="spanicondown" aria-hidden="true"></span></a>
-				<ul id="cyber_security" class="dropdown-menu-partnerships">
-					<li><a href="<?php echo base_url();?>ddos-mitigation-service?lang=en">DDoS Mitigation Service</a></li>
-					<li><a href="<?php echo base_url();?>our-services/cyber-security/web-application-firewall?lang=en">Web Application Firewall</a></li>
-					<li><a href="<?php echo base_url();?>our-services/cyber-security/managed-network-security?lang=en">Managed Network Security</a></li>
-				</ul>
-			</li>
-		</li>
-		<li>
-			<li class="partnerships">
-			<a style="cursor:pointer;">Value Added Services<span class="fa fa-chevron-down" id="spanicondown" aria-hidden="true"></span></a>
-				<ul id="add_services" class="dropdown-menu-partnerships">
-					<li><a href="<?php echo base_url();?>our-services/value-added-service/voice-over-ip?lang=en">VoIP</a></li>
-					<li><a href="<?php echo base_url();?>our-services/value-added-service/EzeTV?lang=en">EzeTV</a></li>
-				</ul>
-			</li>
-		</li>
+		<li ><a href="<?php echo base_url();?>our-services/enterprise-network/international-private-leased-circuit?lang=en">IPLC</a></li>
+		<li><a href="<?php echo base_url();?>our-services/enterprise-network/domestic-private-leased-circuit?lang=en">DPLC</a></li>
+		<li><a href="<?php echo base_url();?>our-services/enterprise-network/mpls?lang=en">MPLS</a></li>
+		<li><a href="<?php echo base_url();?>our-services/enterprise-network/vpls?lang=en">VPLS</a></li>
 	  </ul>
 	</li>
 </li>
-<li class="<?=($active=='Support')?'current active':null?>" data-id="533" data-level="1" data-hidesub="1">
-<li class="dropdown1">
-	  <a href="<?php echo base_url();?>support/customer-service?lang=en">Support</a>
-	  <ul class="dropdown-menu">
-		<li><a href="<?php echo base_url();?>support/faq?lang=en">FAQ'S</a></li>
-		<li><a href="<?php echo base_url();?>support/customer-service?lang=en">Customer Service</a></li>
-		<li><a href="<?php echo base_url();?>support/payment?lang=en">Payment Options</a></li>
-		<li><a href="<?php echo base_url();?>setup-email?lang=en">EzeMail Setup</a></li>
-		<li><a href="https://webmail.ezecom.com.kh/">EzeMail</a></li>
-		<li><a href="http://ezecom.speedtest.net/">Speed Test</a></li>
-		<li><a href="https://csm.ezecom.com.kh/uam/">User Account Management</a></li>
-	  </ul>
-</li>
-</li>
 
 <li class="<?=($active=='Media Center' || $this->uri->segment(1) == 'cameralive' || $this->uri->segment(1) == 'live_radio')?'current active':null?>">
-<li class="dropdown1">
-	  <a class="" href="<?php echo base_url();?>media-center/news-events?lang=en">Media Center</a>
-	  <ul class="dropdown-menu">
-		<li><a href="<?php echo base_url();?>media-center/news-events?lang=en">News and Events</a></li>
-		<li><a href="<?php echo base_url();?>media-center/live-cambodia-radio?lang=en">Radio Live Stream</a></li>
-		<li><a href="<?php echo base_url();?>media-center/live-traffic-camera?lang=en">Traffic Live Camera</a></li>
-	  </ul>
+	<li class="dropdown1">
+		  <a class="" href="<?php echo base_url();?>media-center/news-events?lang=en">Cloud Services</a>
+		  <ul class="dropdown-menu">
+			<li><a href="<?php echo base_url();?>our-services/cloud-service/microsoft-cloud-service?lang=en">Microsoft Cloud Service</a></li>
+			<li><a href="<?php echo base_url();?>our-services/cloud-service/amazon-web-service?lang=en">Amazon Web Service</a></li>
+		  </ul>
+	</li>
 </li>
 
+<li class="<?=($active=='Support')?'current active':null?>" data-id="533" data-level="1" data-hidesub="1">
+	<li class="dropdown1">
+		  <a href="<?php echo base_url();?>support/customer-service?lang=en">Support</a>
+		  <ul class="dropdown-menu">
+			<li><a href="<?php echo base_url();?>support/faq?lang=en">FAQ'S</a></li>
+			<li><a href="<?php echo base_url();?>support/customer-service?lang=en">Customer Service</a></li>
+			<li><a href="<?php echo base_url();?>support/payment?lang=en">Payment Options</a></li>
+			<li><a href="<?php echo base_url();?>setup-email?lang=en">EzeMail Setup</a></li>
+			<li><a href="https://webmail.ezecom.com.kh/">EzeMail</a></li>
+			<li><a href="http://ezecom.speedtest.net/">Speed Test</a></li>
+			<li><a href="https://csm.ezecom.com.kh/uam/">User Account Management</a></li>
+		  </ul>
+	</li>
 </li>
+
+
 <li class="<?=($active=='Contact Us')?'current active':null?>">
 	<a class="" href="<?php echo base_url();?>contact-us?lang=en" data-target="#">Contact Us </a>
 </li>
@@ -832,130 +763,60 @@
 <li >
 <a href="<?php echo base_url();?>homepage?lang=en">Home</a>
 </li>
+
 <li>
-<li class="dropdown1">
-	  <a href="<?php echo base_url();?>our-company?lang=en">Our Company</a>
-	  <ul class="dropdown-menu">
-		<li><a href="<?php echo base_url();?>our-company/company-profile?lang=en">Company Profile</a></li>
-		<li><a href="<?php echo base_url();?>our-company/quality-management-system?lang=en">Quality Management System</a></li>
-		<li><a href="<?php echo base_url();?>our-company/childsafe-certification?lang=en">Childsafe Certification</a></li>
-		<li>
-			<li class="partnerships_mobile">
-			<a style="cursor:pointer">Our Partnerships<span class="fa fa-chevron-down" id="spanicondown_partnership" aria-hidden="true"></span></a>
-				<ul id="partnerships_mobile" class="dropdown-menu-partnerships-mobile">
-					<li><a href="<?php echo base_url()?>our-company/our-partnerships/goodwill-partners?lang=en">Good Will Partners</a></li>
-					<li><a href="<?php echo base_url()?>our-company/our-partnerships/ezecampus?lang=en">EzeCampus</a></li>
-					<li><a href="<?php echo base_url()?>our-company/our-partnerships/student-discount?lang=en">Student Discount</a></li>
-				</ul>
-			</li>
-		</li>
-		<li><a href="<?php echo base_url();?>our-company/corporate-social-responsibility?lang=en">Corporate Social Responsibility</a></li>
-		<li><a href="<?php echo base_url();?>our-company/community?lang=en">Community</a></li>
-		<li><a href="<?php echo base_url();?>our-company/career-opportunities?lang=en">Career Opportunities</a></li>
-	  </ul>
-</li>
- 
-</li>
-<li class="sub-hidden-collapse" data-id="545" data-level="1" data-alignsub="left" data-hidesub="1" data-hidewcol="1">
-	
 	<li class="dropdown1">
-		 <a data-target="#">Our Services</a>
+		  <a href="<?php echo base_url();?>our-company?lang=en">Internet Access</a>
 		  <ul class="dropdown-menu">
-			<li>
-				<li class="partnerships">
-				<a style="cursor:pointer">Internet Access <span class="fa fa-chevron-down" id="spanicondown" aria-hidden="true"></a>
-					<ul id="internet_access_mobile" class="dropdown-menu-partnerships">
-						<li><a href="<?php echo base_url();?>our-services/internet-access/dedicated-internet-access?lang=en">Dedicated Internet Access</a></li>
-						<li><a href="<?php echo base_url();?>our-services/internet-access/EzeBiz?lang=en">EzeBiz</a></li>
-						<li><a href="<?php echo base_url();?>our-services/internet-access/EzeSurf?lang=en">EzeSurf</a></li>
-					</ul>
-				</li>
-			</li>
-			<li>
-				<li class="partnerships">
-				<a style="cursor:pointer;">Enterprise Network<span class="fa fa-chevron-down" id="spanicondown" aria-hidden="true"></span></a>
-					<ul id="enterprise_network_mobile" class="dropdown-menu-partnerships">
-						<li><a href="<?php echo base_url();?>our-services/enterprise-network/international-private-leased-circuit?lang=en">IPLC</a></li>
-						<li><a href="<?php echo base_url();?>our-services/enterprise-network/domestic-private-leased-circuit?lang=en">DPLC</a></li>
-						<li><a href="<?php echo base_url();?>our-services/enterprise-network/mpls?lang=en">MPLS</a></li>
-						<li><a href="<?php echo base_url();?>our-services/enterprise-network/vpls?lang=en">VPLS</a></li>
-					</ul>
-				</li>
-			</li>
-			<li>
-				<li class="partnerships">
-				<a style="cursor:pointer;">Cloud Services<span class="fa fa-chevron-down" id="spanicondown" aria-hidden="true"></span></a>
-					<ul id="cloud_services_mobile" class="dropdown-menu-partnerships">
-						<li><a href="<?php echo base_url();?>our-services/cloud-service/microsoft-cloud-service?lang=en">Microsoft Cloud Service</a></li>
-						<li><a href="<?php echo base_url();?>our-services/cloud-service/amazon-web-service?lang=en">Amazon Web Service</a></li>
-					</ul>
-				</li>
-			</li>
-			<li>
-				<li class="partnerships">
-				<a style="cursor:pointer;">Data Center & Hosting <span class="fa fa-chevron-down" id="spanicondown" aria-hidden="true"></span></a>
-					<ul id="data_center_mobile" class="dropdown-menu-partnerships">
-						<li><a href="<?php echo base_url();?>our-services/hosting/colocation?lang=en">Colocation</a></li>
-						<li><a href="<?php echo base_url();?>our-services/hosting/disaster-recovery-center?lang=en">DRC</a></li>
-						<li><a href="<?php echo base_url();?>our-services/hosting/cpanel-web-hosting?lang=en">Web Hosting</a></li>
-						<li><a href="<?php echo base_url();?>our-services/hosting/virtual-pbx?lang=en">VPBX</a></li>
-					</ul>
-				</li>
-			</li>
-			<li>
-				<li class="partnerships">
-				<a style="cursor:pointer;">Cyber Security<span class="fa fa-chevron-down" id="spanicondown" aria-hidden="true"></span></a>
-					<ul id="cyber_security_mobile" class="dropdown-menu-partnerships">
-						<li><a href="<?php echo base_url();?>ddos-mitigation-service?lang=en">DDoS Mitigation Service</a></li>
-						<li><a href="<?php echo base_url();?>our-services/cyber-security/web-application-firewall?lang=en">Web Application Firewall</a></li>
-						<li><a href="<?php echo base_url();?>our-services/cyber-security/managed-network-security?lang=en">Managed Network Security</a></li>
-					</ul>
-				</li>
-			</li>
-			<li>
-				<li class="partnerships">
-				<a style="cursor:pointer;">Value Added Services<span class="fa fa-chevron-down" id="spanicondown" aria-hidden="true"></span></a>
-					<ul id="add_services_mobile" class="dropdown-menu-partnerships">
-						<li><a href="<?php echo base_url();?>our-services/value-added-service/voice-over-ip?lang=en">VoIP</a></li>
-						<li><a href="<?php echo base_url();?>our-services/value-added-service/EzeTV?lang=en">EzeTV</a></li>
-					</ul>
-				</li>
-			</li>
+			<li><a href="<?php echo base_url();?>our-services/internet-access/dedicated-internet-access?lang=en">Dedicated Internet Access</a></li>
+			<li><a href="<?php echo base_url();?>our-services/internet-access/EzeBiz?lang=en">EzeBiz</a></li>
+			<li><a href="<?php echo base_url();?>our-services/internet-access/EzeSurf?lang=en">EzeSurf</a></li>
 		  </ul>
 	</li>
-
-</li>
-<li class="current active">
-<li class="dropdown1">
-	  <a href="<?php echo base_url();?>support/customer-service?lang=en">Support</a>
-	  <ul class="dropdown-menu">
-		<li><a href="<?php echo base_url();?>support/faq?lang=en">FAQ'S</a></li>
-		<li><a href="<?php echo base_url();?>support/customer-service?lang=en">Customer Service</a></li>
-		<li><a href="<?php echo base_url();?>support/payment?lang=en">Payment Options</a></li>
-		<li><a href="<?php echo base_url();?>setup-email?lang=en">EzeMail Setup</a></li>
-		<li><a href="https://webmail.ezecom.com.kh/">EzeMail</a></li>
-		<li><a href="http://ezecom.speedtest.net/">Speed Test</a></li>
-		<li><a href="https://csm.ezecom.com.kh/uam/">User Account Management</a></li>
-	  </ul>
 </li>
 
+<li class="sub-hidden-collapse" data-id="545" data-level="1" data-alignsub="left" data-hidesub="1" data-hidewcol="1">
+	<li class="dropdown1">
+		 <a data-target="#">Enterprise Network</a>
+		 <ul class="dropdown-menu">
+			<li ><a href="<?php echo base_url();?>our-services/enterprise-network/international-private-leased-circuit?lang=en">IPLC</a></li>
+			<li><a href="<?php echo base_url();?>our-services/enterprise-network/domestic-private-leased-circuit?lang=en">DPLC</a></li>
+			<li><a href="<?php echo base_url();?>our-services/enterprise-network/mpls?lang=en">MPLS</a></li>
+			<li><a href="<?php echo base_url();?>our-services/enterprise-network/vpls?lang=en">VPLS</a></li>
+		</ul>
+	</li>
 </li>
+
 <li class="<?php if($this->uri->segment(1) == 'cameralive'){echo 'current active';}else{echo 'inactive';} ?>">
-<li class="dropdown1">
-  <a class="" href="<?php echo base_url();?>media-center/news-events?lang=en">Media Center</a>
-  <ul class="dropdown-menu">
-	<li><a href="<?php echo base_url();?>media-center/news-events?lang=en">News and Events</a></li>
-	<li><a href="<?php echo base_url();?>media-center/live-cambodia-radio?lang=en">Radio Live Stream</a></li>
-	<li><a href="<?php echo base_url();?>media-center/live-traffic-camera?lang=en">Traffic Live Camera</a></li>
-  </ul>
+	<li class="dropdown1">
+	  <a class="" href="<?php echo base_url();?>media-center/news-events?lang=en">Cloud Services</a>
+	   <ul class="dropdown-menu">
+		 <li><a href="<?php echo base_url();?>our-services/cloud-service/microsoft-cloud-service?lang=en">Microsoft Cloud Service</a></li>
+		 <li><a href="<?php echo base_url();?>our-services/cloud-service/amazon-web-service?lang=en">Amazon Web Service</a></li>
+	   </ul>
+	</li>
 </li>
 
+<li class="current active">
+	<li class="dropdown1">
+		  <a href="<?php echo base_url();?>support/customer-service?lang=en">Support</a>
+		  <ul class="dropdown-menu">
+			<li><a href="<?php echo base_url();?>support/faq?lang=en">FAQ'S</a></li>
+			<li><a href="<?php echo base_url();?>support/customer-service?lang=en">Customer Service</a></li>
+			<li><a href="<?php echo base_url();?>support/payment?lang=en">Payment Options</a></li>
+			<li><a href="<?php echo base_url();?>setup-email?lang=en">EzeMail Setup</a></li>
+			<li><a href="https://webmail.ezecom.com.kh/">EzeMail</a></li>
+			<li><a href="http://ezecom.speedtest.net/">Speed Test</a></li>
+			<li><a href="https://csm.ezecom.com.kh/uam/">User Account Management</a></li>
+		  </ul>
+	</li>
+</li>
+
+<li>
+	<a href="<?php echo base_url();?>contact-us?lang=en">Contact Us </a>
 </li>
 <li>
-<a href="<?php echo base_url();?>contact-us?lang=en">Contact Us </a>
-</li>
-<li>
-	<a class="dropdown-toggle" style="cursor:pointer" data-toggle="dropdown"><img src="<?php echo base_url()?>images/toogle.png"/></a>
+	<a class="collection" style="cursor:pointer" data-toggle="dropdown"><img src="<?php echo base_url()?>images/toogle.png"/></a>
 </li>
 </ul></div>
 		
@@ -967,94 +828,36 @@
 </li>
 <li class="<?=($active=='Our Company')?'current active':null?>" mega-align-left data-id="571" data-level="1" data-alignsub="left" data-hidesub="1">
 <li class="dropdown1">
-	 <a href="<?php echo base_url();?>our-company?lang=en" data-target="#">Our Company </a>
-	  <ul class="dropdown-menu">
-		<li><a href="<?php echo base_url();?>our-company/company-profile?lang=en">Company Profile</a></li>
-		<li><a href="<?php echo base_url();?>our-company/quality-management-system?lang=en">Quality Management System</a></li>
-		<li><a href="<?php echo base_url();?>our-company/childsafe-certification?lang=en">Childsafe Certification</a></li>
-		<li>
-			<li class="partnerships">
-			<a style="cursor:pointer">Our Partnerships<span class="fa fa-chevron-down" id="spanicondown_partnership" aria-hidden="true"></span></a>
-				<ul id="partnerships_id" class="dropdown-menu-partnerships">
-					<li><a href="<?php echo base_url()?>our-company/our-partnerships/goodwill-partners?lang=en">Good Will Partners</a></li>
-					<li><a href="<?php echo base_url()?>our-company/our-partnerships/ezecampus?lang=en">EzeCampus</a></li>
-					<li><a href="<?php echo base_url()?>our-company/our-partnerships/student-discount?lang=en">Student Discount</a></li>
-				</ul>
-			</li>
-		</li>
-		<li><a href="<?php echo base_url();?>our-company/corporate-social-responsibility?lang=en">Corporate Social Responsibility</a></li>
-		<li><a href="<?php echo base_url();?>our-company/community?lang=en">Community</a></li>
-		<li><a href="<?php echo base_url();?>our-company/career-opportunities?lang=en">Career Opportunities</a></li>
-	  </ul>
+	 <a href="<?php echo base_url();?>our-company?lang=en" data-target="#">Internet Access </a>
+	 <ul class="dropdown-menu">
+		<li><a href="<?php echo base_url();?>our-services/internet-access/dedicated-internet-access?lang=en">Dedicated Internet Access</a></li>
+		<li><a href="<?php echo base_url();?>our-services/internet-access/EzeBiz?lang=en">EzeBiz</a></li>
+		<li><a href="<?php echo base_url();?>our-services/internet-access/EzeSurf?lang=en">EzeSurf</a></li>
+	 </ul>
 </li>
 </li>
 <li class="<?=($active=='Our Services')?'current active':null?> mega-align-left sub-hidden-collapse" data-id="545" data-level="1" data-alignsub="left" data-hidesub="1" data-hidewcol="1">
 	<li class="dropdown1">
-	 <a href="<?php echo base_url();?>our-services?lang=en" data-target="#">Our Services</a>
-	  <ul class="dropdown-menu">
-		<li>
-			<li class="partnerships">
-			<a style="cursor:pointer">Internet Access <span class="fa fa-chevron-down" id="spanicondown" aria-hidden="true"></span></a>
-				<ul id="internet_access" class="dropdown-menu-partnerships">
-					<li><a href="<?php echo base_url();?>our-services/internet-access/dedicated-internet-access?lang=en">Dedicated Internet Access</a></li>
-					<li><a href="<?php echo base_url();?>our-services/internet-access/EzeBiz?lang=en">EzeBiz</a></li>
-					<li><a href="<?php echo base_url();?>our-services/internet-access/EzeSurf?lang=en">EzeSurf</a></li>
-				</ul>
-			</li>
-		</li>
-		<li>
-			<li class="partnerships">
-			<a style="cursor:pointer;">Enterprise Network<span class="fa fa-chevron-down" id="spanicondown" aria-hidden="true"></span></a>
-				<ul id="enterprise_network" class="dropdown-menu-partnerships">
-					<li><a href="<?php echo base_url();?>our-services/enterprise-network/international-private-leased-circuit?lang=en">IPLC</a></li>
-					<li><a href="<?php echo base_url();?>our-services/enterprise-network/domestic-private-leased-circuit?lang=en">DPLC</a></li>
-					<li><a href="<?php echo base_url();?>our-services/enterprise-network/mpls?lang=en">MPLS</a></li>
-					<li><a href="<?php echo base_url();?>our-services/enterprise-network/vpls?lang=en">VPLS</a></li>
-				</ul>
-			</li>
-		</li>
-		<li>
-			<li class="partnerships">
-			<a style="cursor:pointer;">Cloud Services<span class="fa fa-chevron-down" id="spanicondown" aria-hidden="true"></span></a>
-				<ul id="cloud_services" class="dropdown-menu-partnerships">
-					<li><a href="<?php echo base_url();?>our-services/cloud-service/microsoft-cloud-service?lang=en">Microsoft Cloud Service</a></li>
-					<li><a href="<?php echo base_url();?>our-services/cloud-service/amazon-web-service?lang=en">Amazon Web Service</a></li>
-				</ul>
-			</li>
-		</li>
-		<li>
-			<li class="partnerships">
-			<a style="cursor:pointer;">Data Center & Hosting <span class="fa fa-chevron-down" id="spanicondown" aria-hidden="true"></span></a>
-				<ul id="data_center" class="dropdown-menu-partnerships">
-					<li><a href="<?php echo base_url();?>our-services/hosting/colocation?lang=en">Colocation</a></li>
-					<li><a href="<?php echo base_url();?>our-services/hosting/disaster-recovery-center?lang=en">DRC</a></li>
-					<li><a href="<?php echo base_url();?>our-services/hosting/cpanel-web-hosting?lang=en">Web Hosting</a></li>
-					<li><a href="<?php echo base_url();?>our-services/hosting/virtual-pbx?lang=en">VPBX</a></li>
-				</ul>
-			</li>
-		</li>
-		<li>
-			<li class="partnerships">
-			<a style="cursor:pointer;">Cyber Security<span class="fa fa-chevron-down" id="spanicondown" aria-hidden="true"></span></a>
-				<ul id="cyber_security" class="dropdown-menu-partnerships">
-					<li><a href="<?php echo base_url();?>ddos-mitigation-service?lang=en">DDoS Mitigation Service</a></li>
-					<li><a href="<?php echo base_url();?>our-services/cyber-security/web-application-firewall?lang=en">Web Application Firewall</a></li>
-					<li><a href="<?php echo base_url();?>our-services/cyber-security/managed-network-security?lang=en">Managed Network Security</a></li>
-				</ul>
-			</li>
-		</li>
-		<li>
-			<li class="partnerships">
-			<a style="cursor:pointer;">Value Added Services<span class="fa fa-chevron-down" id="spanicondown" aria-hidden="true"></span></a>
-				<ul id="add_services" class="dropdown-menu-partnerships">
-					<li><a href="<?php echo base_url();?>our-services/value-added-service/voice-over-ip?lang=en">VoIP</a></li>
-					<li><a href="<?php echo base_url();?>our-services/value-added-service/EzeTV?lang=en">EzeTV</a></li>
-				</ul>
-			</li>
-		</li>
-	  </ul>
+	 <a href="<?php echo base_url();?>our-services?lang=en" data-target="#">Enterprise Network</a>
+	 <ul class="dropdown-menu">
+		<li ><a href="<?php echo base_url();?>our-services/enterprise-network/international-private-leased-circuit?lang=en">IPLC</a></li>
+		<li><a href="<?php echo base_url();?>our-services/enterprise-network/domestic-private-leased-circuit?lang=en">DPLC</a></li>
+		<li><a href="<?php echo base_url();?>our-services/enterprise-network/mpls?lang=en">MPLS</a></li>
+		<li><a href="<?php echo base_url();?>our-services/enterprise-network/vpls?lang=en">VPLS</a></li>
+	 </ul>
 </li>
 </li>
+
+<li class="<?=($active=='Media Center' || $this->uri->segment(1) == 'cameralive' || $this->uri->segment(1) == 'live_radio')?'current active':null?>">
+	<li class="dropdown1">
+		  <a class="" href="<?php echo base_url();?>media-center/news-events?lang=en">Cloud Services</a>
+		  <ul class="dropdown-menu">
+			<li><a href="<?php echo base_url();?>our-services/cloud-service/microsoft-cloud-service?lang=en">Microsoft Cloud Service</a></li>
+			<li><a href="<?php echo base_url();?>our-services/cloud-service/amazon-web-service?lang=en">Amazon Web Service</a></li>
+		  </ul>
+	</li>
+</li>
+
 <li class="<?=($active=='Support')?'current active':null?>" data-id="533" data-level="1" data-hidesub="1">
 	<li class="dropdown1">
 		 <a class="" href="<?php echo base_url()?>support/customer-service?lang=en" data-target="#">Support</a>
@@ -1069,16 +872,7 @@
 		  </ul>
 	</li>
 </li>
-<li class="<?=($active=='Media Center' || $this->uri->segment(1) == 'cameralive' || $this->uri->segment(1) == 'live_radio')?'current active':null?>">
-	<li class="dropdown1">
-		  <a class="" href="<?php echo base_url();?>media-center/news-events?lang=en">Media Center</a>
-		  <ul class="dropdown-menu">
-			<li><a href="<?php echo base_url();?>media-center/news-events?lang=en">News and Events</a></li>
-			<li><a href="<?php echo base_url();?>media-center/live-cambodia-radio?lang=en">Radio Live Stream</a></li>
-			<li><a href="<?php echo base_url();?>media-center/live-traffic-camera?lang=en">Traffic Live Camera</a></li>
-		  </ul>
-	</li>
-</li>
+
 <li class="<?=($active=='Contact Us')?'current active':null?>">
 	<a class="" href="<?php echo base_url();?>contact-us?lang=en" data-target="#">Contact Us </a>
 </li>
@@ -1240,15 +1034,16 @@ $(".dropdown1").hover(
 
 
 $(document).ready(function(){	
-document.getElementById('partnerships_id').style.display = 'none';
+//document.getElementById('partnerships_id').style.display = 'none';
 
 // drop menu our services desktop
-document.getElementById('internet_access').style.display = 'none';
+/* document.getElementById('internet_access').style.display = 'none';
 document.getElementById('enterprise_network').style.display = 'none';
 document.getElementById('cloud_services').style.display = 'none';
 document.getElementById('data_center').style.display = 'none';
 document.getElementById('cyber_security').style.display = 'none';
-document.getElementById('add_services').style.display = 'none';
+document.getElementById('add_services').style.display = 'none'; */
+
 // drop menu our services mobile 
 /* document.getElementById('internet_access_mobile').style.display = 'none';
 document.getElementById('enterprise_network_mobile').style.display = 'none';

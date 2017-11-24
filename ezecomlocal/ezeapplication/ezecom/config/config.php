@@ -25,7 +25,7 @@ date_default_timezone_set("Asia/Bangkok");
 |
 */
 
-$config['base_url'] = 'http://localhost/ezecom_clone/ezecomlocal/ezecomlocal/';
+$config['base_url'] = 'http://localhost/ezecom_kimba/ezecom_kimba/ezecomlocal/';
 /*
 |--------------------------------------------------------------------------
 | Index File

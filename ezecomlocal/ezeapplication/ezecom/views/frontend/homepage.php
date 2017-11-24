@@ -680,7 +680,7 @@
 <h3>Our Internet</a></h3>
 <p style="font-size: 14px; color: #444444;"> </p></a>
 </div>
-<div class="col-xs-12 col-sm-12 col-md-4"><a href="<?php echo base_url();?>enterprisesolution?lang=<?php echo $this->get_lang ?>">
+<div class="col-xs-12 col-sm-12 col-md-4"><a href="<?php echo base_url();?>enterprise-solution?lang=<?php echo $this->get_lang ?>">
 <div class="enterprisesolutions"> </div>
 <h3>Enterprise Solutions</h3>
 <p style="font-size: 14px; color: #444444;"> </p></a>
